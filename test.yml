@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: default
+   cloud:
+     config:
+       server:
+         git:
+           uri: https://github.com/manojsukumaran19
+
+new.greeting: "Hello from config Server"
